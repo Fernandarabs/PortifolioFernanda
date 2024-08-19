@@ -12,6 +12,7 @@
     font-family: "Paytone One", sans-serif;
 }
 :root{
+    
     --bg-color: #1a233e;
     --other-color: #000000;
     --second-bg-color: #ffffff;
@@ -409,7 +410,8 @@ span{
     text-align: left;
     font-weight: 400;
     max-height: 100;
-    margin: auto;
+    margin: 5px;
+    padding: 5px;
 }
 
 .service-info a{
@@ -474,6 +476,7 @@ span{
     transform: translateY(-10px)scale(1.03);
 }
 .testimonial-item h2{
+    color: var(--main-color);
     animation: transitionIn 2s;
     font-family: "Paytone One", sans-serif;
     font-size: 3.5rem;
@@ -754,4 +757,6 @@ span{
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
+
 
