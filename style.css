@@ -410,8 +410,7 @@ span{
     text-align: left;
     font-weight: 400;
     max-height: 100;
-    margin: 5px;
-    padding: 5px;
+    margin: auto;
 }
 
 .service-info a{
@@ -482,6 +481,7 @@ span{
     font-size: 3.5rem;
 }
 .testimonial-item p{
+    color: var(--main-color);
     animation: transitionIn 3s;
     font-size: 2rem;
 }
@@ -757,6 +757,7 @@ span{
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
 
 
 
